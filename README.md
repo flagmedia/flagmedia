@@ -1,90 +1,54 @@
-<p align="center">
-  <img src="assets/flag-github-hero.svg" alt="FLAG Media Art and Creative Technology" width="100%" />
-</p>
+# FLAG 개발 프로젝트 저장소
 
-<h1 align="center">FLAG</h1>
+이 GitHub 계정은 FLAG의 개발 프로젝트, 운영 도구, 현장 프로그램, 업무 자동화 자료를 관리하기 위한 공식 저장소 공간입니다.
 
-<p align="center">
-  <strong>빛과 공간을 연결하는 미디어아트 파트너</strong><br />
-  Media Art · Exhibition Systems · Interactive Installations · Creative Technology
-</p>
+프로젝트를 확인하거나 수정할 때는 각 저장소의 README, 최근 커밋, 실행 방법, 검증 기준을 먼저 확인합니다. 작업 내용은 가능한 작은 단위로 나누고, 변경 이유와 확인 결과를 기록합니다.
 
-<p align="center">
-  <a href="https://www.jso.kr/">
-    <img src="https://img.shields.io/badge/Website-jso.kr-334DB6?style=for-the-badge" alt="Website" />
-  </a>
-  <a href="https://flag-ai-development-manual.pages.dev/">
-    <img src="https://img.shields.io/badge/AI%20Development%20Manual-Open-111827?style=for-the-badge" alt="AI Development Manual" />
-  </a>
-  <a href="mailto:chan8819@naver.com">
-    <img src="https://img.shields.io/badge/Contact-chan8819%40naver.com-0F766E?style=for-the-badge" alt="Email" />
-  </a>
-</p>
+## 바로 확인할 자료
+
+| 자료 | 용도 |
+| --- | --- |
+| [FLAG AI 개발 운영 매뉴얼](https://flag-ai-development-manual.pages.dev/) | GitHub, AI 코딩 도구, 빌드, 배포, 오류 대응 기준 확인 |
+| 각 프로젝트 README | 실행 방법, 폴더 구조, 주의사항, 배포 기준 확인 |
+| 최근 커밋 내역 | 현재 작업 흐름과 변경된 파일 확인 |
+| Issues / Pull Requests | 요청 사항, 검토 내역, 남은 작업 확인 |
+
+## 저장소 이용 기준
+
+1. 작업 전 저장소 목적과 실행 방법을 먼저 확인합니다.
+2. 관련 없는 파일은 수정하지 않습니다.
+3. 변경은 작게 나누고, 한 번에 하나의 목적만 처리합니다.
+4. 실행, 빌드, 테스트 중 가능한 방법으로 결과를 확인합니다.
+5. API 키, 토큰, 계정 정보, 인증 정보는 GitHub와 AI 채팅에 직접 입력하지 않습니다.
+6. 작업을 마친 뒤 변경 파일, 확인 결과, 남은 위험을 기록합니다.
+
+## AI 작업 요청 기준
+
+AI 도구를 사용할 때는 아래 내용을 함께 전달합니다.
+
+```text
+이 저장소를 먼저 읽고 구조를 파악해줘.
+요청한 변경만 작게 진행하고, 관련 없는 파일은 수정하지 마.
+변경 전 현재 목표, 관련 파일, 변경하지 않을 파일, 구현 계획, 완료 기준, 검증 방법을 먼저 정리해줘.
+구현 후에는 변경 파일, 테스트 결과, 남은 위험을 요약해줘.
+```
+
+## 프로젝트 구분
+
+| 구분 | 설명 |
+| --- | --- |
+| 현장 운영 | 전시 현장의 장비 상태, 실행 파일, 콘텐츠 재생, 점검 흐름 관리 |
+| 인터랙티브 프로그램 | 관객 반응, 센서, 카메라, 디스플레이 기반 프로그램 관리 |
+| 업무 자동화 | 반복 업무, 문서 생성, 데이터 정리, 운영 자료 생성 자동화 |
+| 개발 운영 | GitHub, 빌드, 배포, 문서화, AI 코딩 기준 관리 |
+
+## 기본 원칙
+
+- 먼저 읽고, 작게 수정하고, 실행으로 확인합니다.
+- 문서와 코드의 기준이 다르면 현재 실행되는 코드를 기준으로 확인한 뒤 문서를 갱신합니다.
+- 판단이 필요한 변경은 작업 목적과 영향 범위를 먼저 정리합니다.
+- 현장에서 사용하는 프로그램은 안정성과 복구 가능성을 우선합니다.
 
 ---
 
-## Studio Direction
-
-FLAG는 전시, 공간, 영상, 인터랙션, 운영 시스템을 하나의 경험으로 연결하는 미디어아트 팀입니다.  
-빛의 흐름, 관객의 움직임, 현장 장비, 콘텐츠 운영을 정교하게 조율하여 공간이 스스로 반응하는 장면을 만듭니다.
-
-| Field | What We Build |
-| --- | --- |
-| Media Art | 몰입형 영상, 프로젝션, 전시 콘텐츠, 공간 연출 |
-| Media Facade | 건축 표면과 도시 공간을 활용한 대형 시각 경험 |
-| Interactive Exhibition | 센서, 카메라, 관객 반응 기반 인터랙티브 프로그램 |
-| Operation Systems | 현장 장비 점검, 콘텐츠 실행, 배포와 운영 자동화 |
-| AI Workflow | 문서화, 검증, 반복 업무 자동화, 개발 보조 체계 |
-
-## Creative Technology Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Media%20Art-334DB6?style=for-the-badge" alt="Media Art" />
-  <img src="https://img.shields.io/badge/Interactive%20Systems-111827?style=for-the-badge" alt="Interactive Systems" />
-  <img src="https://img.shields.io/badge/Projection%20Mapping-475467?style=for-the-badge" alt="Projection Mapping" />
-  <img src="https://img.shields.io/badge/AI%20Coding-0F766E?style=for-the-badge" alt="AI Coding" />
-  <img src="https://img.shields.io/badge/Field%20Operation-7C3AED?style=for-the-badge" alt="Field Operation" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</p>
-
-## Operating Principles
-
-1. 현장에서 안정적으로 실행되는 결과를 우선합니다.
-2. 작은 단위로 변경하고, 실행과 빌드로 확인합니다.
-3. 프로젝트 구조, 수정 이유, 검증 결과를 문서로 남깁니다.
-4. AI 도구는 속도를 높이는 동료로 사용하되, 최종 판단은 사람이 합니다.
-5. 예술적 완성도와 운영 안정성을 같은 기준으로 다룹니다.
-
-## Knowledge Portal
-
-공식 개발 운영 기준은 아래 매뉴얼에서 확인할 수 있습니다.  
-매뉴얼 본문은 회사 연락처 기반 암호 입력 후 열람됩니다.
-
-<p>
-  <a href="https://flag-ai-development-manual.pages.dev/">
-    <img src="https://img.shields.io/badge/Open-FLAG%20AI%20Development%20Manual-334DB6?style=for-the-badge" alt="Open FLAG AI Development Manual" />
-  </a>
-</p>
-
-## Contact
-
-| Channel | Information |
-| --- | --- |
-| Website | <https://www.jso.kr/> |
-| Phone | 010.8484.1611 |
-| Email | <chan8819@naver.com> |
-| Address | 대구광역시 서구 염색공단중앙로 7 |
-
----
-
-<p align="center">
-  <strong>FLAG creates spatial experiences where light, technology, and people meet.</strong>
-</p>
+이 페이지는 FLAG 개발 프로젝트 저장소를 일관된 기준으로 운영하기 위한 메인 안내 문서입니다.
