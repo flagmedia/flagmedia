@@ -1,5 +1,12 @@
 # FLAG 개발 프로젝트 저장소
 
+<p>
+  <img src="https://img.shields.io/badge/Project_Index-334DB6?style=flat-square" alt="Project Index" />
+  <img src="https://img.shields.io/badge/Repository_Standards-111827?style=flat-square" alt="Repository Standards" />
+  <img src="https://img.shields.io/badge/AI_Workflow-0F766E?style=flat-square" alt="AI Workflow" />
+  <img src="https://img.shields.io/badge/Field_Operation-475467?style=flat-square" alt="Field Operation" />
+</p>
+
 이 GitHub 계정은 FLAG의 개발 프로젝트, 운영 도구, 현장 프로그램, 업무 자동화 자료를 관리하기 위한 공식 저장소 공간입니다.
 
 프로젝트를 확인하거나 수정할 때는 각 저장소의 README, 최근 커밋, 실행 방법, 검증 기준을 먼저 확인합니다. 작업 내용은 가능한 작은 단위로 나누고, 변경 이유와 확인 결과를 기록합니다.
@@ -8,10 +15,10 @@
 
 | 자료 | 용도 |
 | --- | --- |
-| [FLAG AI 개발 운영 매뉴얼](https://flag-ai-development-manual.pages.dev/) | GitHub, AI 코딩 도구, 빌드, 배포, 오류 대응 기준 확인 |
-| 각 프로젝트 README | 실행 방법, 폴더 구조, 주의사항, 배포 기준 확인 |
-| 최근 커밋 내역 | 현재 작업 흐름과 변경된 파일 확인 |
-| Issues / Pull Requests | 요청 사항, 검토 내역, 남은 작업 확인 |
+| <img src="https://img.shields.io/badge/Manual-334DB6?style=flat-square&logo=bookstack&logoColor=white" alt="Manual" /> [FLAG AI 개발 운영 매뉴얼](https://flag-ai-development-manual.pages.dev/) | GitHub, AI 코딩 도구, 빌드, 배포, 오류 대응 기준 확인 |
+| <img src="https://img.shields.io/badge/README-111827?style=flat-square&logo=readme&logoColor=white" alt="README" /> 각 프로젝트 README | 실행 방법, 폴더 구조, 주의사항, 배포 기준 확인 |
+| <img src="https://img.shields.io/badge/Commits-475467?style=flat-square&logo=git&logoColor=white" alt="Commits" /> 최근 커밋 내역 | 현재 작업 흐름과 변경된 파일 확인 |
+| <img src="https://img.shields.io/badge/Issues_PRs-0F766E?style=flat-square&logo=github&logoColor=white" alt="Issues and Pull Requests" /> Issues / Pull Requests | 요청 사항, 검토 내역, 남은 작업 확인 |
 
 ## 저장소 이용 기준
 
@@ -37,10 +44,10 @@ AI 도구를 사용할 때는 아래 내용을 함께 전달합니다.
 
 | 구분 | 설명 |
 | --- | --- |
-| 현장 운영 | 전시 현장의 장비 상태, 실행 파일, 콘텐츠 재생, 점검 흐름 관리 |
-| 인터랙티브 프로그램 | 관객 반응, 센서, 카메라, 디스플레이 기반 프로그램 관리 |
-| 업무 자동화 | 반복 업무, 문서 생성, 데이터 정리, 운영 자료 생성 자동화 |
-| 개발 운영 | GitHub, 빌드, 배포, 문서화, AI 코딩 기준 관리 |
+| <img src="https://img.shields.io/badge/Field-475467?style=flat-square" alt="Field" /> 현장 운영 | 전시 현장의 장비 상태, 실행 파일, 콘텐츠 재생, 점검 흐름 관리 |
+| <img src="https://img.shields.io/badge/Interactive-334DB6?style=flat-square" alt="Interactive" /> 인터랙티브 프로그램 | 관객 반응, 센서, 카메라, 디스플레이 기반 프로그램 관리 |
+| <img src="https://img.shields.io/badge/Automation-0F766E?style=flat-square" alt="Automation" /> 업무 자동화 | 반복 업무, 문서 생성, 데이터 정리, 운영 자료 생성 자동화 |
+| <img src="https://img.shields.io/badge/Dev_Ops-111827?style=flat-square" alt="Development Operations" /> 개발 운영 | GitHub, 빌드, 배포, 문서화, AI 코딩 기준 관리 |
 
 ## 기본 원칙
 
